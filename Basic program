@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int num1, num2, sum; // Declare variables to store the numbers and their sum
+
+    printf("Enter two integers: "); // Prompt the user for input
+    scanf("%d %d", &num1, &num2); // Read the two integers from the user
+
+    sum = num1 + num2; // Calculate the sum using the '+' operator
+
+    printf("Sum: %d\n", sum); // Print the calculated sum
+
+    return 0; // Indicate successful program execution
+}
+
